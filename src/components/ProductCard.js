@@ -2,13 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Card, Button } from "react-bootstrap";
 
-// import images
-import img1 from "../img/img1.jpg";
-import img2 from "../img/img2.jpg";
-import img3 from "../img/img3.jpg";
-import img4 from "../img/img4.jpg";
-import img5 from "../img/img5.jpg";
-
 const ProductCard = (props) => {
   let { imgSrc, price, title } = props.data;
   return (
